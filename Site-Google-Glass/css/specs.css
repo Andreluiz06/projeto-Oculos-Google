@@ -1,0 +1,18 @@
+@charset"UTF-8";
+section#conteudo {
+    width: 1000px;
+    margin: auto;
+}
+iframe#frame-spec {
+    width: 400px;
+    height: 280px;
+    border: none;
+    overflow: hidden;
+}
+/*(::-webkit-scrollbar não existe mais como padrão, apenas alguns navegadores aceitam),
+a nova técnica é usar no iframe o scrolling="no"
+*/
+
+iframe#frame-spec {
+    overflow: hidden;
+}
